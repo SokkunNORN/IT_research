@@ -1,0 +1,28 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, teal, #2fb6b6);
+}
+
+ul .alert {
+    color: #000;
+}
+
+.header {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.page-footer {
+    background: linear-gradient(to right, teal, #2fb6b6);
+    bottom: 0;
+}
+
+
+

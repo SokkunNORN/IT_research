@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, teal, #c6f3f3);
+}
+
+button {
+    padding: 7px;
+    margin: 0;
+    background: teal;
+    border: none;
+    color: #fff;
+    width: 19%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.float-right {
+    margin-top: 0;
+    background: none;
+    color: #000;
+    display: none;
+}
+
+li:hover>.float-right {
+    display: block;
+}
+
+input {
+    margin-right: 1px;
+    padding: 5px;
+    width: 80%;
+}
+
+
